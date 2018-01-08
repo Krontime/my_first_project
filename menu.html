@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+     
+     <head>
+          <title>Gastra Super Menu</title>
+          <style>
+               p {
+                    font-family: "Lucinda Grande", "Lucinda Sans Unicode",
+                    Helvetica, Arial, Verdana, sans-serif;
+               }
+               .veg:before {
+                    content: url(img/veggie.png) " ";
+               }
+               
+               .meat:before {
+                    content: url(img/meat.png) " ";
+               }
+               
+               .main:after {
+                    content: " " url(img/main.png);
+               }
+               
+               #calculateTotal {
+                    border:1px solid rgb(200,20,80);
+                    color: #fff;
+                    background: rgb(200,20,80);
+                    padding: 10px 20px;
+                    border-radius: 3px;
+               }
+               .meat {
+                    border:1px solid #5B2525;
+               }
+               .veg {
+                    border:1px solid #359E35;
+               }
+               
+          </style>
+     </head>
+     
+     <body>
+          <h2>Sides:</h2>
+          <h4>Veggies:</h4>
+          <p class="veg">Rocket Drizzle Salid</p>
+          <p class="veg">All about the Beets</p>
+          <p class="veg">Great bowl of Broccoli</p>
+          <h4>Meat:</h4>
+          <p class="meat">Chicken Fingers</p>
+          <p class="meat">Sweet Glased Pork Skewers</p>
+          <h2>Mains:</h2>
+          <h4>Veggies:</h4>
+          <p class="veg main">Lental Masala woth Spinich</p>
+          <p class="veg main">Grilled Eggplant</p>
+          <h4>Meat:</h4>
+          <p class="meat main">Peri Peri double Chicken</p>
+          <p class="meat main">Fied Chicken</p>
+          
+          <button id="calculateTotal">How Much?</button>
+     </body>
+     
+</html>
