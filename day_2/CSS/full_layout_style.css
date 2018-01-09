@@ -1,0 +1,111 @@
+		
+		/*USE THIS TO ADD A .css <link rel="stylesheet" href="./filepath">*/
+p{
+	margin-bottom: 50px;
+}
+			
+	.box{
+		display:block;
+		width: 100%;
+		margin: 0 0 10px 0;
+		border-radius: 10px;
+		font-family: Roboto;
+		font-size: 20px;
+		text-align: center;
+		padding: 30px 0;
+		box-sizing: border-box;
+		position: relative;
+	}
+			
+	#container{
+		margin-right:auto; /*center container with margins left & right set to auto*/
+		margin-left:auto;
+		width:960px;	/*to center an element it must have a fixed width*/
+		border-radius: 10px;
+		padding: 10px;
+		padding-top: 130px;
+		font-size: 0; /* font-size:0 removes problem spaceing issue for inline-block*/
+		position: relative;
+	}
+	#header{
+		background-color: rgba(200,200,200,0.8);
+		box-sizing: border-box;
+		border: 3px solid;
+		position: fixed;
+		width: 960px;
+		top: 0px;
+		z-index: 10;
+		padding: 0;
+
+	}
+	#footer{
+		background-color: rgba(200,200,200,0.5);
+		box-sizing: border-box;
+		border: 3px solid;
+		z-index: 15;
+	}
+	#sidebar{
+		display: inline-block;
+		background-color: rgba(150,150,200,0.5);
+		width: 316px;
+		margin-right: 5px;
+		padding: 10px;
+		box-sizing: border-box;
+		border: 2px dashed rgb(50,50,200);
+		position: relative;
+		z-index: 5;
+	}
+	#sidebar2{
+		display: inline-block;
+		background-color: rgba(150,150,200,0.5);
+		width: 475px;
+		margin-right: 5px;
+		padding: 10px;
+		box-sizing: border-box;
+		border: 2px dashed rgb(50,50,200);
+		position: relative;
+		z-index: 5;
+	}
+	#content{
+		display: inline-block;
+		background-color: rgba(100,100,100,0.5);
+		width: 634px;
+		margin-left: 5px;
+		padding: 12px;
+		box-sizing: border-box;
+		position: absolute;
+		z-index: 5;
+	}
+	#content2{
+		display: inline-block;
+		background-color: rgba(100,100,100,0.5);
+		width: 475px;
+		margin-left: 5px;
+		padding: 12px;
+		box-sizing: border-box;
+		position: relative;
+		z-index: 5;
+	}
+	#additional_content{
+		display: inline-block;
+		background-color: rgba(100,100,100,0.5);
+		width: 634px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-bottom: 13px;
+		box-sizing: border-box;
+		z-index: 5;
+	}
+	#linkToTop{
+		position: absolute;
+		bottom: 0px;
+		left: -75px;
+	}
+	#secondLinkToTop{
+		position: absolute;
+		bottom: 0px;
+		right: -75px;
+	}
+			

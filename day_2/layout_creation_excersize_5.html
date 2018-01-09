@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Box Model</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+
+			body{
+				font-family: roboto;
+			}
+		
+			#container{
+				margin-right:auto; /*center container with margins left & right set to auto*/
+				margin-left:auto;
+				width:960px;	/*to center an element it must have a fixed width*/
+				height: 660px;
+				background-color:#AA4639;
+				border-radius: 10px;
+				padding: 10px;
+				font-size: 0;	/* remove inline-block spacing*/
+				position: absolute;
+
+				
+			}
+			.box{
+				display: inline-block;
+				width: 220px;
+				height: 150px;
+				text-align: center;
+				background-color: #81BBC9;
+				margin:10px;
+				border-radius:10px;
+				font-size: 35px;
+				position: absolute;
+			}
+			#one{
+				position: absolute;
+				top: 325px;
+				left: 490px;
+			}
+			#two{
+				position: absolute;
+				top: 325px;
+				left: 270px;
+			}
+			#three{
+				position: absolute;
+				top: 175px;
+				left: 490px;
+			}
+			#four{
+				position: absolute;
+				top: 175px;
+				left: 270px;
+			}
+			
+
+
+		</style>
+	</head>
+	<body>
+		<div id="container"></div>
+			
+			<div class="box" id="one"><h2>1</h2></div>
+			<div class="box" id="two"><h2>2</h2></div>
+			<div class="box" id="three"><h2>3</h2></div>
+			<div class="box" id="four"><h2>4</h2></div>
+			
+	</body>
+</html>

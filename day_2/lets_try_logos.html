@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Box Model</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+
+			body{
+				font-family: roboto;
+			}
+		     .bottom_half{
+				display: inline-block;
+				text-align: center;
+				margin: 10px;
+				font-size: 35px;
+				position: absolute;
+			}
+			#container{
+				margin-right:auto; /*center container with margins left & right set to auto*/
+				margin-left:auto;
+				width:960px;	/*to center an element it must have a fixed width*/
+				height: 660px;
+				background-color:#AA4639;
+				border-radius: 10px;
+				padding: 10px;
+				font-size: 0;	/* remove inline-block spacing*/
+				position: absolute;
+                    }
+                    
+			#one{
+			     width: 220px;
+				height: 350px;
+				position: absolute;
+				background-color: rgba(129,187,201,0.6);
+				top: 400px;
+				left: 390px;
+				border-top-right-radius: 50%;
+				border-bottom-right-radius: 0px;
+				border-top-left-radius: 0%;
+				border-bottom-left-radius: 0px;
+				transform: rotate(-45deg);
+			}
+			#two{
+				width: 220px;
+				height: 350px;
+				position: absolute;
+				background-color: rgba(129,187,201,0.6);
+				top: 400px;
+				left: 480px;
+				border-top-right-radius: 0%;
+				border-bottom-right-radius: 0px;
+				border-top-left-radius: 50%;
+				border-bottom-left-radius: 0px;
+				transform: rotate(45deg);
+			}
+			#three{
+				width: 220px;
+				height: 220px;
+				position: absolute;
+				background-color: rgba(129,187,201,0.6);
+				top: px;
+				left: 450px;
+				border-top-right-radius: 100%;
+				border-bottom-right-radius: 100%;
+				border-top-left-radius: 100%;
+				border-bottom-left-radius: 100%;
+			}
+
+		</style>
+	</head>
+	<body>
+		
+		<div class="bottom_half" id="one"><h2>1</h2></div>
+		<div class="bottom_half" id="two"><h2>2</h2></div>
+		<div class="bottom_half" id="three"><h2>3</h2></div>
+		
+	</body>
+</html>

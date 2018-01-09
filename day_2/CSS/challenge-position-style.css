@@ -1,0 +1,82 @@
+		body {
+			height: 100%;
+		}
+		
+		.box {
+			background-color: gray;
+			color: red;
+		}
+		
+		.content_box {
+			border: 3px solid lightblue;
+			border-radius: 10px;
+			display: inline-block;
+			box-sizing: border-box;
+		}
+
+		.saleImage {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 200;
+
+		}
+		
+		#container {
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+			margin-bottom: 90px;
+			width: 900px;
+		}
+
+		#header {
+			text-align: center;
+			width: 900px;
+			height: 100px;
+			margin-bottom: 20px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		h1 {
+			padding-top: 20px;
+		}
+
+		#footer {
+			text-align: center;
+			width: 900px;
+			height: 80px;
+			padding-bottom: 20px;
+			position: fixed;
+			bottom: 0;
+			z-index: 400;
+			background-color: rgba(100,100,100,0.6);
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#backToTop {
+			position: absolute;
+			bottom: 10px;
+			left: 10px;
+		}
+		
+		#left {
+			position: relative;	
+			background-color: rgb(200,200,200);
+			width: 440px;
+			padding: 10px;
+			margin-right: 8px;
+			box-sizing: border-box;
+		}
+		
+		#right {
+			position: relative;	
+			background-color: rgb(200,200,200);
+			width: 440px;
+			padding: 10px;
+			margin-left: 8px;
+			box-sizing: border-box;
+			
+		}
